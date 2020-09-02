@@ -84,18 +84,18 @@ async function getipfs(cid, filename){
     }
 }
 
-async function getipfsFromWeb(cid, filename){
-    var request = require('request').defaults({ encoding: null });
+// async function getipfsFromWeb(cid, filename){
+//     var request = require('request').defaults({ encoding: null });
 
-    request.get('http://127.0.0.1:8080/ipfs/'+cid, function (error, response, body) {
-        if (!error && response.statusCode == 200) {
-            data = "data:" + response.headers["content-type"] + ";base64," + Buffer.from(body).toString('base64');
+//     request.get('http://127.0.0.1:8080/ipfs/'+cid, function (error, response, body) {
+//         if (!error && response.statusCode == 200) {
+//             data = "data:" + response.headers["content-type"] + ";base64," + Buffer.from(body).toString('base64');
             
-            fs.writeFileSync(filename, data)
-            // console.log(data);
-        }
-    });
-}
+//             fs.writeFileSync(filename, data)
+//             // console.log(data);
+//         }
+//     });
+// }
 
 const cid = 'Qmcmoazqm1CVAgwPkRBwiM8WkFKh7cmmNN7eaahXX9eHjs'
 // addipfs('./images/RA.bmp')
