@@ -6,7 +6,7 @@ For ipfs test code
 command 커맨드
 
 > result 결과
-================================================================================================
+
 ## 1. Install on Linux - 리눅스에서 설치하기
 - Download go-ipfs_v0.6.0_linux-amd64.tar.gz from GitHub: wget으로 zip파일을 다운받습니다.
 wget https://github.com/ipfs/go-ipfs/releases/download/v0.6.0/go-ipfs_v0.6.0_linux-amd64.tar.gz
@@ -14,7 +14,7 @@ wget https://github.com/ipfs/go-ipfs/releases/download/v0.6.0/go-ipfs_v0.6.0_lin
 - Unzip the file: 다운받은 파일을 unzip 합니다.
 tar -xvzf go-ipfs_v0.6.0_linux-amd64.tar.gz
 
-> x go-ipfs/install.sh
+> x go-ipfs/install.sh \
 > x go-ipfs/ipfs
 > x go-ipfs/LICENSE
 > x go-ipfs/LICENSE-APACHE
