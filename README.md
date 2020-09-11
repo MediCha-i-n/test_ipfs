@@ -26,7 +26,7 @@ wget https://github.com/ipfs/go-ipfs/releases/download/v0.6.0/go-ipfs_v0.6.0_lin
 
 - Move into the go-ipfs folder and run the install script: go-ipfs 폴더로 가서 배쉬 파일을 실행합니다. 
 ```
- cd go-ipfs \
+ cd go-ipfs 
  sudo bash install.sh
 ```
 > Moved ./ipfs to /usr/local/bin 
