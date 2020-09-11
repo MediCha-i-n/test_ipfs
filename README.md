@@ -9,11 +9,11 @@ command 커맨드
 > result 결과
 
 ## 1. Install on Linux - 리눅스에서 설치하기
-- Download go-ipfs_v0.6.0_linux-amd64.tar.gz from GitHub: wget으로 zip파일을 다운받습니다. \
+- Download go-ipfs_v0.6.0_linux-amd64.tar.gz from GitHub: wget으로 zip파일을 다운받습니다. 
 ```
 wget https://github.com/ipfs/go-ipfs/releases/download/v0.6.0/go-ipfs_v0.6.0_linux-amd64.tar.gz
 ```
-- Unzip the file: 다운받은 파일을 unzip 합니다. \
+- Unzip the file: 다운받은 파일을 unzip 합니다. 
 ```
  tar -xvzf go-ipfs_v0.6.0_linux-amd64.tar.gz
 ```
@@ -24,14 +24,14 @@ wget https://github.com/ipfs/go-ipfs/releases/download/v0.6.0/go-ipfs_v0.6.0_lin
 > x go-ipfs/LICENSE-MIT \
 > x go-ipfs/README.md 
 
-- Move into the go-ipfs folder and run the install script: go-ipfs 폴더로 가서 배쉬 파일을 실행합니다. \
+- Move into the go-ipfs folder and run the install script: go-ipfs 폴더로 가서 배쉬 파일을 실행합니다. 
 ```
  cd go-ipfs \
  sudo bash install.sh
 ```
 > Moved ./ipfs to /usr/local/bin 
 
-- Test: 잘 설치되었는지 테스트합니다. \
+- Test: 잘 설치되었는지 테스트합니다. 
 ```
  ipfs --version
 ```
@@ -39,7 +39,7 @@ wget https://github.com/ipfs/go-ipfs/releases/download/v0.6.0/go-ipfs_v0.6.0_lin
 
 
 ## 2. Initialize
-- ipfs의 repository를 initialize 합니다. \
+- ipfs의 repository를 initialize 합니다. 
 ```
  ipfs init
 ```
@@ -80,7 +80,7 @@ Check out some of the other files in this directory:
   
   
 ## 3. Take your node online
-ipfs 데몬을 실행하여 퍼블릭 네트워크에 참여합니다. \
+ipfs 데몬을 실행하여 퍼블릭 네트워크에 참여합니다. 
 ```
  ipfs daemon
 ```
