@@ -2,7 +2,7 @@
 For ipfs test code
 
 # How to set up
-- Explanation 설명 \
+- Explanation 설명 
 ```
 command 커맨드
 ```
