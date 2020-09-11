@@ -43,7 +43,7 @@ wget https://github.com/ipfs/go-ipfs/releases/download/v0.6.0/go-ipfs_v0.6.0_lin
 ```
  ipfs init
 ```
-initializing ipfs node at /Users/jbenet/.go-ipfs \
+initializing ipfs node at /Users/jbenet/.go-ipfs 
 > generating 2048-bit RSA keypair...done \
 > peer identity: Qmcpo2iLBikrdf1d6QU6vXuNb6P7hwrbNPW9kLAH8eG67z \
 > to get started, enter: \
@@ -67,7 +67,7 @@ IPFS and are now interfacing with the ipfs merkledag!
 | Warning:                                              | \
 |   This is alpha software. use at your own discretion! | \
 |   Much is missing or lacking polish. There are bugs.  | \
-|   Not yet secure. Read the security notes for more.   | \
+|   Not yet secure. Read the security notes for more.   | 
  ------------------------------------------------------- 
 
 Check out some of the other files in this directory:
