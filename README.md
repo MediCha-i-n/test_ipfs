@@ -2,7 +2,7 @@
 For ipfs test code
 
 # How to set up
-- Explanation 설명
+- Explanation 설명 \
 command 커맨드
 
 > result 결과
@@ -66,11 +66,11 @@ IPFS and are now interfacing with the ipfs merkledag!
 
 Check out some of the other files in this directory:
 
-  ./about
-  ./help
-  ./quick-start     <-- usage examples
-  ./readme          <-- this file
-  ./security-notes
+  ./about \
+  ./help \
+  ./quick-start     <-- usage examples \
+  ./readme          <-- this file \
+  ./security-notes \
   
   
 ## 3. Take your node online
