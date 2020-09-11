@@ -3,7 +3,8 @@ For ipfs test code
 
 # How to set up
 - Explanation 설명 \
-command 커맨드
+
+ command 커맨드
 
 > result 결과
 
@@ -12,7 +13,8 @@ command 커맨드
 wget https://github.com/ipfs/go-ipfs/releases/download/v0.6.0/go-ipfs_v0.6.0_linux-amd64.tar.gz
 
 - Unzip the file: 다운받은 파일을 unzip 합니다. \
-tar -xvzf go-ipfs_v0.6.0_linux-amd64.tar.gz
+
+ tar -xvzf go-ipfs_v0.6.0_linux-amd64.tar.gz
 
 > x go-ipfs/install.sh \
 > x go-ipfs/ipfs \
@@ -22,20 +24,23 @@ tar -xvzf go-ipfs_v0.6.0_linux-amd64.tar.gz
 > x go-ipfs/README.md 
 
 - Move into the go-ipfs folder and run the install script: go-ipfs 폴더로 가서 배쉬 파일을 실행합니다. \
-cd go-ipfs \
-sudo bash install.sh
+
+ cd go-ipfs \
+ sudo bash install.sh
 
 > Moved ./ipfs to /usr/local/bin 
 
 - Test: 잘 설치되었는지 테스트합니다. \
-ipfs --version
+
+ ipfs --version
 
 > ipfs version 0.6.0 
 
 
 ## 2. Initialize
 - ipfs의 repository를 initialize 합니다. \
-ipfs init
+
+ ipfs init
 
 initializing ipfs node at /Users/jbenet/.go-ipfs \
 > generating 2048-bit RSA keypair...done \
@@ -75,7 +80,8 @@ Check out some of the other files in this directory:
   
 ## 3. Take your node online
 ipfs 데몬을 실행하여 퍼블릭 네트워크에 참여합니다. \
-ipfs daemon
+
+ ipfs daemon
 
 > Initializing daemon... \
 > API server listening on /ip4/127.0.0.1/tcp/5001 \
