@@ -15,22 +15,22 @@ wget https://github.com/ipfs/go-ipfs/releases/download/v0.6.0/go-ipfs_v0.6.0_lin
 tar -xvzf go-ipfs_v0.6.0_linux-amd64.tar.gz
 
 > x go-ipfs/install.sh \
-> x go-ipfs/ipfs
-> x go-ipfs/LICENSE
-> x go-ipfs/LICENSE-APACHE
-> x go-ipfs/LICENSE-MIT
-> x go-ipfs/README.md
+> x go-ipfs/ipfs \n
+> x go-ipfs/LICENSE \n
+> x go-ipfs/LICENSE-APACHE \n
+> x go-ipfs/LICENSE-MIT \n
+> x go-ipfs/README.md \n
 
 - Move into the go-ipfs folder and run the install script: go-ipfs 폴더로 가서 배쉬 파일을 실행합니다.
 cd go-ipfs
 sudo bash install.sh
 
-> Moved ./ipfs to /usr/local/bin
+> Moved ./ipfs to /usr/local/bin \n
 
 - Test: 잘 설치되었는지 테스트합니다.
 ipfs --version
 
-> ipfs version 0.6.0
+> ipfs version 0.6.0 \n
 
 
 ## 2. Initialize
@@ -38,32 +38,31 @@ ipfs --version
 ipfs init
 
 initializing ipfs node at /Users/jbenet/.go-ipfs
-> generating 2048-bit RSA keypair...done
-> peer identity: Qmcpo2iLBikrdf1d6QU6vXuNb6P7hwrbNPW9kLAH8eG67z
-> to get started, enter:
->
->   ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
+> generating 2048-bit RSA keypair...done \n
+> peer identity: Qmcpo2iLBikrdf1d6QU6vXuNb6P7hwrbNPW9kLAH8eG67z \n
+> to get started, enter: \n
+>   ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme \n
 
 아래와 같은 화면이 나오면 성공!
 
-Hello and Welcome to IPFS!
+Hello and Welcome to IPFS! \n
 
-██╗██████╗ ███████╗███████╗
-██║██╔══██╗██╔════╝██╔════╝
-██║██████╔╝█████╗  ███████╗
-██║██╔═══╝ ██╔══╝  ╚════██║
-██║██║     ██║     ███████║
-╚═╝╚═╝     ╚═╝     ╚══════╝
+██╗██████╗ ███████╗███████╗ \n
+██║██╔══██╗██╔════╝██╔════╝ \n
+██║██████╔╝█████╗  ███████╗ \n
+██║██╔═══╝ ██╔══╝  ╚════██║ \n
+██║██║     ██║     ███████║ \n
+╚═╝╚═╝     ╚═╝     ╚══════╝ \n
 
 If you see this, you have successfully installed
 IPFS and are now interfacing with the ipfs merkledag!
 
- -------------------------------------------------------
-| Warning:                                              |
-|   This is alpha software. use at your own discretion! |
-|   Much is missing or lacking polish. There are bugs.  |
-|   Not yet secure. Read the security notes for more.   |
- -------------------------------------------------------
+ ------------------------------------------------------- \n
+| Warning:                                              | \n
+|   This is alpha software. use at your own discretion! | \n
+|   Much is missing or lacking polish. There are bugs.  | \n
+|   Not yet secure. Read the security notes for more.   | \n
+ ------------------------------------------------------- \n
 
 Check out some of the other files in this directory:
 
@@ -78,6 +77,6 @@ Check out some of the other files in this directory:
 ipfs 데몬을 실행하여 퍼블릭 네트워크에 참여합니다.
 ipfs daemon
 
-> Initializing daemon...
-> API server listening on /ip4/127.0.0.1/tcp/5001
-> Gateway server listening on /ip4/127.0.0.1/tcp/8080
+> Initializing daemon... \n
+> API server listening on /ip4/127.0.0.1/tcp/5001 \n
+> Gateway server listening on /ip4/127.0.0.1/tcp/8080 \n
