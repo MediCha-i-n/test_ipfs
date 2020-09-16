@@ -87,3 +87,11 @@ ipfs 데몬을 실행하여 퍼블릭 네트워크에 참여합니다.
 > Initializing daemon... \
 > API server listening on /ip4/127.0.0.1/tcp/5001 \
 > Gateway server listening on /ip4/127.0.0.1/tcp/8080 
+
+## 4. addIPFs 결과
+
+{
+  path: 'QmVWn1q82hNNJSttYgNAhhHE6iMdcTHS2VF6C2zTTbKg6o',
+  cid: CID(QmVWn1q82hNNJSttYgNAhhHE6iMdcTHS2VF6C2zTTbKg6o),
+  size: 111062
+}

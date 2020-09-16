@@ -1,0 +1,8 @@
+{
+  "name": "test_ipfs",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "ipfs-http-client": "^47.0.1"
+  }
+}
