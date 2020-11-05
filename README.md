@@ -49,6 +49,10 @@ initializing ipfs node at /Users/jbenet/.go-ipfs
 > to get started, enter: \
 >   ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme 
 
+```
+ ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme 
+```
+
 아래와 같은 화면이 나오면 성공!
 
 Hello and Welcome to IPFS! 
